@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>copycat</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Klee+One:wght@400;600&display=swap');
+    </style>
+</head>
+
+<body>
+    <h1 class="title">copycat</h1>
+
+    <div class="container">
+        <img src="images/linkedin.png" class="icon" id="linkedin-icon">
+        <label for="linkedin" class="label">LinkedIn</label>
+        <input type="text" id="linkedin" placeholder="LinkedIn Profile Link">
+        <img src="images/copy.png" class="copy-icon" id="copy-linkedin" alt="Copy">
+    </div>
+
+    <div class="container">
+        <img src="images/github.png" class="icon" id="github-icon">
+        <label for="github" class="label">Github</label>
+        <input type="text" id="github" placeholder="Github Profile Link">
+        <img src="images/copy.png" class="copy-icon" id="copy-github" alt="Copy">
+    </div>
+
+    <div class="container">
+        <img src="images/paw-print.png" class="icon" id="portfolio-icon">
+        <label for="portfolio" class="label">Portfolio</label>
+        <input type="text" id="portfolio" placeholder="Portfolio Link">
+        <img src="images/copy.png" class="copy-icon" id="copy-portfolio" alt="Copy">
+    </div>
+
+    <div id="custom-link"></div>
+
+    <button class="button" id="add-link">+</button>
+    <button class="button" id="save-link">Save</button>
+    <div class="snackbar" id="snackbar"></div>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>

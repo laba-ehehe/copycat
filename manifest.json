@@ -1,0 +1,33 @@
+{
+    "manifest_version": 3,
+    "name": "copycat",
+    "version": "0.0.1",
+    "description": "an extension for quick copy & paste links",
+    "icon": {
+        "16": "images/paw.png",
+        "48": "images/paw.png",
+        "128": "images/paw.png"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+             "16": "images/paw.png",
+             "48": "images/paw.png",
+            "128": "images/paw.png"
+        }
+    },
+    "permissions": [
+        "storage",
+        "clipboardWrite"
+    ],
+    "background": {
+        "service-worker": "service-worker.js",
+        "type": "module"
+    },
+    "content-scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ]
+}

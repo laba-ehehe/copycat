@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Cattie";
+    src: url(fonts/Cattie\ Regular.ttf);
+}
+
+body {
+    padding: 15px;
+}
+
+.title {
+    font-family: "Cattie";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.icon {
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+}
+
+.copy-icon {
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.button {
+    cursor: pointer;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+    font-family: "Klee One", cursive;
+    font-weight: 600;
+    font-size: 30px;
+    font-style: normal;
+
+    margin: 10px;
+    margin-top: 20px;
+    border: none
+}
