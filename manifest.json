@@ -3,7 +3,7 @@
     "name": "copycat",
     "version": "0.0.1",
     "description": "an extension for quick copy & paste links",
-    "icon": {
+    "icons": {
         "16": "images/paw.png",
         "48": "images/paw.png",
         "128": "images/paw.png"
@@ -18,7 +18,8 @@
     },
     "permissions": [
         "storage",
-        "clipboardWrite"
+        "clipboardWrite",
+        "clipboardRead"
     ],
     "content-scripts": [
         {
