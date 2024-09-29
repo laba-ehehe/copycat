@@ -4,7 +4,11 @@
 }
 
 body {
+    background-color: #FFD1DC;
+    background-color: lightpink;
+    background-color: mistyrose;
     padding: 15px;
+    border: solid
 }
 
 .title {
@@ -12,6 +16,46 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 80px;
+    color: rgb(206, 45, 99);
+    margin: 5px 20px 0px 0px;
+}
+
+.button {
+    cursor: pointer;
+    padding: 3px 10px;
+    display: inline-block;
+    text-align: center;
+    
+    font-family: "Cute Font", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    background-color: ivory;
+    color: palevioletred;
+      
+    /* margin: 10px; */
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 15px;
+    border: none
+}
+
+.label {
+    font-family: "Cute Font", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    padding-right: 10px;
+}
+
+.placeholder {
+    font-family: "Gaegu", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 300;
+    border: 1.5px dotted;
+    border-radius: 10px;
+    padding-left: 10px;
 }
 
 .container {
@@ -21,8 +65,8 @@ body {
 }
 
 .icon {
-    width: 22px;
-    height: 22px;
+    width: 35px;
+    height: 35px;
     margin-right: 10px;
 }
 
@@ -31,21 +75,21 @@ body {
     margin-left: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
 }
 
-.button {
-    cursor: pointer;
-    padding: 5px;
-    display: inline-block;
-    text-align: center;
-    font-family: "Klee One", cursive;
-    font-weight: 600;
-    font-size: 30px;
-    font-style: normal;
+#paw {
+    width: 90px;
+    height: 90px;
+}
 
-    margin: 10px;
-    margin-top: 20px;
-    border: none
+#rainbow-cat {
+    padding: 0px;
+    margin: 0px
+}
+
+#black-cat {
+    /* transform: rotate(270deg); */
+    margin: -160px 0px -35px 95px;
 }

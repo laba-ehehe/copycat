@@ -7,31 +7,44 @@
     <title>copycat</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Klee+One:wght@400;600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap');
     </style>
 </head>
 
 <body>
-    <h1 class="title">copycat</h1>
+    <div class="container">
+        <!-- <img src="images/paw-animated.png" class="icon" id="paw"> -->
+        <!-- <video autoplay loop muted playsinline width="100">
+            <source src="images/cat.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video> -->
+        <h1 class="title">copycat</h1>
+
+        <video id="rainbow-cat" autoplay loop muted playsinline>
+            <source src="images/rainbow-cat-animated.webm" type="video/webm">
+            Your browser does not support the video tag.
+        </video>
+    </div>
 
     <div class="container">
-        <img src="images/linkedin.png" class="icon" id="linkedin-icon">
+        <img src="images/linkedin-pink.png" class="icon" id="linkedin-icon">
         <label for="linkedin" class="label">LinkedIn</label>
-        <input type="text" id="linkedin" placeholder="LinkedIn Profile Link">
+        <input type="text" class="placeholder" id="linkedin" placeholder="LinkedIn Profile Link">
         <img src="images/copy.png" class="copy-icon" id="copy-linkedin" alt="Copy">
     </div>
 
     <div class="container">
-        <img src="images/github.png" class="icon" id="github-icon">
+        <img src="images/github-pink.png" class="icon" id="github-icon">
         <label for="github" class="label">Github</label>
-        <input type="text" id="github" placeholder="Github Profile Link">
+        <input type="text" class="placeholder" id="github" placeholder="Github Profile Link">
         <img src="images/copy.png" class="copy-icon" id="copy-github" alt="Copy">
     </div>
 
     <div class="container">
         <img src="images/paw-print.png" class="icon" id="portfolio-icon">
         <label for="portfolio" class="label">Portfolio</label>
-        <input type="text" id="portfolio" placeholder="Portfolio Link">
+        <input type="text" class="placeholder" id="portfolio" placeholder="Portfolio Link">
         <img src="images/copy.png" class="copy-icon" id="copy-portfolio" alt="Copy">
     </div>
 
@@ -39,6 +52,12 @@
 
     <button class="button" id="add-link">+</button>
     <button class="button" id="save-link">Save</button>
+
+    <video id="black-cat" autoplay loop muted playsinline>
+        <source src="images/cat-animated.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+
     <div class="snackbar" id="snackbar"></div>
 
     <script src="popup.js"></script>

@@ -20,10 +20,6 @@
         "storage",
         "clipboardWrite"
     ],
-    "background": {
-        "service-worker": "service-worker.js",
-        "type": "module"
-    },
     "content-scripts": [
         {
             "matches": ["<all_urls>"],
